@@ -28,8 +28,7 @@ export class ColorBox extends Component {
                 <div className="copy-container">
                     <div className="box-content">
                     <span>{name}</span>
-                    </div>
-                        
+                    </div>                        
                 </div>
                 <button className="copy-button">Copy</button>
                 <div>
