@@ -4,10 +4,24 @@ whole page, palette colors height is set to 90% meaning 90% of the view height o
 
 .Palette {
     height: 100vh; 
-
+    display: flex;
+    flex-direction: column;
 }
 
 .Palette-colors {
     height: 90%;
 }
 
+.Palette-footer {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
